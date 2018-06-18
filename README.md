@@ -19,18 +19,14 @@ All programs are just files on your computer filled with text. That text has a s
 ### Interpreted vs Compiled
 
 Depending on the programming language you're using, it will either be a [compiled language](http://en.wikipedia.org/wiki/Compiled_language) or an [interpreted language](http://en.wikipedia.org/wiki/Interpreted_language). Compiled programs will first be converted to machine code and then you will be able to run the program. Interpreted languages will be interpreted and converted to machine code at run time.
-
 ### Running a Ruby Program
-
 Once you have a Ruby program as a file, you can run it through the Ruby interpreter to execute it. Your Ruby interpreter is accessible via the `ruby` command in your command line (assuming you have ruby installed correctly).
 
 When you type in `ruby -v` you should see the version of Ruby you are currently running.
-
 ```bash
 ruby -v
 ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-darwin14]
 ```
-
 As an example, to run a Ruby program that was stored in `some-program.rb` you would simply type: `ruby some-program.rb`. 
 
 ### Words in a Program
